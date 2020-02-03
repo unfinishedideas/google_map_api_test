@@ -1,3 +1,12 @@
+<% provide :head_tags do %>
+<meta name='turbolinks-visit-control' content='reload'>
+    <script>
+    document.addEventListener("DOMContentLoaded", function(){
+        initBigMap()
+    });
+    </script>
+<% end %>
+
 <p id="notice"><%= notice %></p>
 
 <h1>Places</h1>
@@ -29,3 +38,7 @@
 <br>
 
 <%= link_to 'New Place', new_place_path %>
+
+<p>
+<div id="bigMap"></div>
+</p>

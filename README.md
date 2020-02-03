@@ -22,3 +22,15 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Getting Google maps operational:
+https://medium.com/@pjbelo/using-google-maps-api-v3-with-rails-5-2-b066a4b2cf14
+
+Multiple markers:
+https://wrightshq.com/playground/placing-multiple-markers-on-a-google-map-using-api-3/
+
+Clusters:
+https://developers.google.com/maps/documentation/javascript/marker-clustering
+
+Customizing markers:
+https://developers.google.com/maps/documentation/javascript/markers
